@@ -1,0 +1,107 @@
+.Qsound__header {
+    display: flex;
+
+}
+
+.Qsound__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+
+.Qsound__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    white-space: pre-line;
+
+}
+
+.Qsound__header-content p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.Qsound__header-content__redirect {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+
+}
+
+
+
+.Qsound__header-content__redirect button {
+    flex: 1;
+    width: 160px;
+    min-height: 50px;
+
+    background: #3994FF;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 1050px) {
+    .Qsound__header {
+        flex-direction: column;
+    }
+
+    .Qsound__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Qsound__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .Qsound__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .Qsound__header-content__redirect button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .Qsound__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .Qsound__header-content p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+    .Qsound__header-content__redirect button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
